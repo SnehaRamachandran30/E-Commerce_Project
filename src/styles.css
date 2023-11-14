@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#app {
+  display: flex;
+  flex-direction: row;
+}
+.sizes {
+  width: 20vw;
+  height: 100vh;
+}
+.size {
+  border-radius: 50%;
+  background-color: rgb(192, 196, 193);
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(192, 196, 193);
+  margin-right: 15px;
+  cursor: pointer;
+}
+img {
+  width: 250px;
+  height: 300px;
+}
+.dress {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+.dress input {
+  cursor: pointer;
+  width: 300px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dresses {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0;
+  position: relative;
+}
+
+.head img {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
+.round {
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 18px;
+  font-size: 12px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
